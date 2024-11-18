@@ -58,4 +58,5 @@ Join our community of developers creating universal apps.
   and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask
   questions.
+
 # expo-ci-tutorial

@@ -6,8 +6,8 @@ const config = {
     ecmaVersion: "latest",
     sourceType: "module",
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   plugins: ["@typescript-eslint", "react", "react-native"],
   extends: [
@@ -15,12 +15,12 @@ const config = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "plugin:react-native/all"
+    "plugin:react-native/all",
   ],
   settings: {
     react: {
-      version: "detect"
-    }
+      version: "detect",
+    },
   },
   rules: {
     "react/react-in-jsx-scope": "off",
