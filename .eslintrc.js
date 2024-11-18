@@ -2,7 +2,7 @@
 const config = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    project: true
+    project: true,
   },
   plugins: ["@typescript-eslint"],
   extends: [
@@ -10,7 +10,7 @@ const config = {
     "expo",
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts
     "eslint:recommended",
-    // @see https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended-type-checked.ts 
+    // @see https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended-type-checked.ts
     "plugin:@typescript-eslint/recommended-type-checked",
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/stylistic-type-checked.ts
     "plugin:@typescript-eslint/stylistic-type-checked",
@@ -50,20 +50,20 @@ const config = {
   },
   ignorePatterns: [
     // 設定ファイル
-    '.eslintrc.cjs',
-    'babel.config.js',
-    'metro.config.js',
+    ".eslintrc.cjs",
+    "babel.config.js",
+    "metro.config.js",
 
     // ビルド関連
-    'dist',
-    'build',
+    "dist",
+    "build",
 
     // 依存関係
-    'node_modules',
+    "node_modules",
 
     // app-example関連
-    'app-example',
-    'app-example/**/*',
+    "app-example",
+    "app-example/**/*",
 
     // その他
     "*.config.js",
