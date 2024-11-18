@@ -26,5 +26,11 @@
 		"babel.config.cjs",
 		"metro.config.js"
 	],
-	"exclude": ["node_modules", "jest.config.js"]
+	"exclude": [
+		"node_modules",
+		"jest.config.js",
+		"app-example/*.tsx",
+		"app-example/*.ts",
+		"app-example/**/*"
+	]
 }
